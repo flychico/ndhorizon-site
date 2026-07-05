@@ -1,0 +1,64 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/:path*.html",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.ndhorizon.com"
+        }
+      ],
+      "destination": "https://ndhorizon.com/$1",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/business-development",
+      "destination": "/business-development.html"
+    },
+    {
+      "source": "/operations-consulting",
+      "destination": "/operations-consulting.html"
+    },
+    {
+      "source": "/marketing-digital-presence",
+      "destination": "/marketing-digital-presence.html"
+    },
+    {
+      "source": "/automation-ai-integration",
+      "destination": "/automation-ai-integration.html"
+    },
+    {
+      "source": "/client-retention-systems",
+      "destination": "/client-retention-systems.html"
+    },
+    {
+      "source": "/playbooks",
+      "destination": "/playbooks.html"
+    },
+    {
+      "source": "/small-business-intake-checklist",
+      "destination": "/small-business-intake-checklist.html"
+    },
+    {
+      "source": "/ai-education",
+      "destination": "/ai-education.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy-policy.html"
+    },
+    {
+      "so

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ndhorizon.com/sitemap.xml
