@@ -2,6 +2,8 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
+    { "source": "/operations-consulting", "destination": "/business-systems-audit", "permanent": true },
+    { "source": "/business-development", "destination": "/business-systems-audit", "permanent": true },
     {
       "source": "/:path*.html",
       "destination": "/:path*",
@@ -20,14 +22,6 @@
     }
   ],
   "rewrites": [
-    {
-      "source": "/business-development",
-      "destination": "/business-development.html"
-    },
-    {
-      "source": "/operations-consulting",
-      "destination": "/operations-consulting.html"
-    },
     {
       "source": "/marketing-digital-presence",
       "destination": "/marketing-digital-presence.html"
@@ -49,12 +43,28 @@
       "destination": "/small-business-intake-checklist.html"
     },
     {
+      "source": "/small-business-ai-playbook",
+      "destination": "/small-business-ai-playbook.html"
+    },
+    {
       "source": "/ai-education",
       "destination": "/ai-education.html"
     },
     {
       "source": "/about",
       "destination": "/about.html"
+    },
+    {
+      "source": "/audit-thanks",
+      "destination": "/audit-thanks.html"
+    },
+    {
+      "source": "/checklist-thanks",
+      "destination": "/checklist-thanks.html"
+    },
+    {
+      "source": "/business-systems-audit",
+      "destination": "/business-systems-audit.html"
     },
     {
       "source": "/privacy-policy",
