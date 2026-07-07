@@ -2,8 +2,16 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
-    { "source": "/operations-consulting", "destination": "/business-systems-audit", "permanent": true },
-    { "source": "/business-development", "destination": "/business-systems-audit", "permanent": true },
+    {
+      "source": "/operations-consulting",
+      "destination": "/business-systems-audit",
+      "permanent": true
+    },
+    {
+      "source": "/business-development",
+      "destination": "/business-systems-audit",
+      "permanent": true
+    },
     {
       "source": "/:path*.html",
       "destination": "/:path*",
@@ -71,4 +79,20 @@
       "destination": "/privacy-policy.html"
     },
     {
-      "so
+      "source": "/terms-of-use",
+      "destination": "/terms-of-use.html"
+    },
+    {
+      "source": "/disclaimer",
+      "destination": "/disclaimer.html"
+    },
+    {
+      "source": "/success",
+      "destination": "/success.html"
+    },
+    {
+      "source": "/success.html",
+      "destination": "/success.html"
+    }
+  ]
+}
